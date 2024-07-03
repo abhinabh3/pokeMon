@@ -6,6 +6,7 @@ import requests
 import gunicorn
 import psycopg2
 
+
 app = Flask(__name__)
 
 # Load configuration from a config file
